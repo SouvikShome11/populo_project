@@ -9,7 +9,7 @@ const testDataPath = 'test-data/get_request_testData.json';
 let testResults = [];
 setupReportFinalization(testResults);
 
-test.describe('Reqres.in - GET - Single User', () => {
+test.describe('Reqres.in - Read User - GET', () => {
   const testData = utils.readJsonFile(testDataPath);
 
   for (const data of testData) {

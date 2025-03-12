@@ -9,7 +9,7 @@ const testDataPath = 'test-data/post_request_testData.json';
 let testResults = [];
 setupReportFinalization(testResults);
 
-test.describe('Reqres.in - POST - Create User Test', () => {
+test.describe('Reqres.in - Create User Test - POST', () => {
   const testData = utils.readJsonFile(testDataPath);
 
   for (const data of testData) {
