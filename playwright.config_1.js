@@ -38,7 +38,7 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'reqres.in - CRED - Test',
       use: { ...devices['Desktop Chrome'] },
     },
 

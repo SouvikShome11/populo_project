@@ -52,13 +52,6 @@ Populo_Takehome_Test
 npx playwright test
 ```
 
-- To run sepcific tests, execute the following command
-
-```bash
-npx playwright test <spec name>
-npx playwright test 5_DeleteUser_DELETE.spec.js
-```
-
 - To run sepcific test, execute the following command
 
 ```bash
@@ -68,7 +61,9 @@ npx playwright test create.spec.js
 ## Test Report
 
 - Test Report can be found in playwright-report -> index.html
-- Sample Report [Open](sampleReport.html)
+- Sample Report
+  - [Open](sampleReport.html)
+  - ![See Screen Shot](SampleReport.png)
 
 ## Running Test in GitHub
 
