@@ -70,3 +70,7 @@ I have pushed this code in my Github. The test can be run directly in Github usi
 - job link : [run test](https://github.com/SouvikShome11/populo_project/actions/workflows/playwright.yml)
 - go to the job and click 'Run Workflow'
 - Post test completion report can be found in Latest Job run-> Actifact section
+
+## 🚀 About Me
+
+I'm a Souvik Shome. Senior SDET/QA/ Automation Tester.
