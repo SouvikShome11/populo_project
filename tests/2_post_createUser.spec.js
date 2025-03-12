@@ -29,8 +29,8 @@ test.describe('Reqres.in - POST - Create User Test', () => {
       );
 
       expect(response.status()).toBe(201);
-      expect(body).toHaveProperty('first_name', data.first_name);
-      expect(body).toHaveProperty('id', data.id);
+      expect(body).toHaveProperty('name', data.name);
+      expect(body).toHaveProperty('job', data.job);
       expect(body).toHaveProperty('createdAt');
       expect(body).toHaveProperty('id');
       expect(typeof body.id).toBe('string');
